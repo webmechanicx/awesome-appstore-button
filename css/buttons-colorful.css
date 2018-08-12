@@ -1,0 +1,70 @@
+/**
+ * Awesome Appstore Buttons - Colorful Edition
+ *
+ * Copyright 2018 Farhadur Rahim
+ * Licensed under the MIT License
+ *
+ * https://github.com/webmechanicx/awesome-appstore-buttons
+ */
+
+ 
+.real-button-store {
+  background-color: #000000;
+  background-image: none;
+  width: 254px;
+  margin-bottom: 0;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.42857143;
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+
+.real-button-store:focus, 
+.real-button-store:hover {
+  color: #ffffff;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  text-decoration: none;
+}
+
+.real-button-store .badge-store {
+  margin-right: .3em;
+  float: left;   
+}
+
+.real-button-store .badge-store img, 
+.real-button-store .badge-store svg {
+  width: 40px;
+  height: 40px;
+  margin-right: .3em;
+}
+
+.real-button-store .min-text, 
+.real-button-store .caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 1px;
+}
+
+.real-button-store .caption {
+  font-size: 24px;
+}

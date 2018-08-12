@@ -1,0 +1,64 @@
+/**
+ * Awesome Appstore Buttons - Standard Edition
+ *
+ * Copyright 2018 Farhadur Rahim
+ * Licensed under the MIT License
+ *
+ * https://github.com/webmechanicx/awesome-appstore-buttons
+ */
+
+ 
+.button-store {
+  background-color: #010101;
+  background-image: none;
+  width: 254px;
+  margin-bottom: 0;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #a2a2a2;
+  line-height: 1.42857143;
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #010101;
+  border-radius: 4px;
+}
+
+.button-store:focus, 
+.button-store:hover {
+  color: #ffffff;
+  background-color: #7a7a7a;
+  border-color: #7a7a7a;
+  text-decoration: none;
+}
+
+.button-store .badge-store {
+  margin-right: .3em;
+  float: left;   
+}
+
+.button-store .badge-store img, 
+.button-store .badge-store svg {
+  width: 42px;
+}
+
+.button-store .min-text, 
+.button-store .caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 1px;
+}
+
+.button-store .caption {
+  font-size: 24px;
+}
