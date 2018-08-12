@@ -1,0 +1,33 @@
+/*
+ * Awesome Appstore Buttons for Bootstrap
+ *
+ * Copyright 2018 Farhadur Rahim
+ * Licensed under the MIT License
+ *
+ * https://github.com/webmechanicx/awesome-appstore-button/
+ */
+
+.btn-store {
+  color: #777777;
+  width: 254px;
+  padding: 12px 20px;
+  border-color: #dddddd;
+}
+
+.btn-store:focus, 
+.btn-store:hover {
+  color: #ffffff;
+  background-color: #168eea;
+  border-color: #168eea;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 24px;
+}
